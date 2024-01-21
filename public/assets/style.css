@@ -226,7 +226,7 @@ ul {
   left: 13;
   height: 28px;
   width: 4px;
-  background: black;
+  background: var(--black);
 }
 
 .header .sidemenu .close::before {
@@ -248,7 +248,7 @@ ul {
 .header .sidemenu nav a {
   font-size: 1.6rem;
   font-weight: 600;
-  color: #050801;
+  color: var(--black);
   text-transform: uppercase;
   transition: 0.4s ease;
 }
