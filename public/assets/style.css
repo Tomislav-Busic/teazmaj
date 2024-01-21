@@ -139,12 +139,12 @@ ul {
 
 .header .menu a.active_a,
 .header .menu a:hover {
-  color: white;
+  color: var(--white);
   text-decoration: underline 5px;
 }
 
 .header.sticky .menu a:hover {
-  color: white;
+  color: var(--white);
 }
 
 .header .sidemenu-toggler {
@@ -157,13 +157,13 @@ ul {
 
 .header .sidemenu-toggler > span {
   display: block;
-  background-color: #03e9f4;
+  background-color: var(--theme);
   height: 3px;
 }
 
 .header.sticky .sidemenu-toggler > span {
   display: block;
-  background-color: #fff;
+  background-color: var(--white);
   height: 3px;
 }
 
