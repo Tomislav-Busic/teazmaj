@@ -294,11 +294,11 @@ ul {
 }
 
 .header .sidemenu .footer p {
-  color: #050801;
+  color: var(--black);
 }
 
 .header .sidemenu .footer p a {
-  color: white;
+  color: var(--white);
 }
 
 ::-webkit-scrollbar {
@@ -307,13 +307,13 @@ ul {
 
 ::-webkit-scrollbar-track {
   width: 10px;
-  background: #212529;
-  border-left: 0 solid white;
-  border-right: 0 solid white;
+  background: var(--dark);
+  border-left: 0 solid var(--white);
+  border-right: 0 solid var(--white);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #03e9f4;
+  background: var(--theme);
   width: 0;
   height: 15%;
   transition: 0.5s ease;
