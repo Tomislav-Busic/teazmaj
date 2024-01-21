@@ -255,7 +255,7 @@ ul {
 
 .header .sidemenu nav a.active_a,
 .header .sidemenu nav a:hover {
-  color: white;
+  color: var(--white);
   letter-spacing: 7px;
 }
 
@@ -285,11 +285,11 @@ ul {
 
 .header .sidemenu .footer .social a i {
   font-size: 40px;
-  color: #fff;
+  color: var(--white);
 }
 
 .header .sidemenu .footer .social a:hover i {
-  color: black;
+  color: var(--black);
   transform: scale(1.3);
 }
 
