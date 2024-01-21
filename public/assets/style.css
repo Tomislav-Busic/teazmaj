@@ -1,5 +1,7 @@
 :root {
   --theme: #03e9f4;
+  --themetrans: rgba(0, 247, 168, 0.8);
+  --themetrans2: rgba(3, 233, 244, 0.8);
   --white: #ffffff;
   --dark: #212529;
   --black: #050801;
