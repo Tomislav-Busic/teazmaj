@@ -5,6 +5,8 @@
   --white: #ffffff;
   --dark: #212529;
   --black: #050801;
+  --darktrans: rgba(0, 0, 0, 0.25);
+  --themenew: rgb(238, 28, 81);
 }
 
 html {
@@ -334,7 +336,7 @@ ul {
   font-size: 27px;
   font-weight: 600;
   line-height: 14px;
-  color: white;
+  color: var(--white);
   padding: 10px 5px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -361,7 +363,7 @@ ul {
 }
 
 .social-icons li:hover {
-  color: #03e9f4;
+  color: var(--theme);
   transform: scale(1.5);
 }
 
@@ -409,26 +411,26 @@ ul {
   font-weight: 900;
   padding: 0 10px;
   transform-style: preserve-3d;
-  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 5px 15px var(--darktrans);
   transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg))
     translateZ(120px) translateX(50px); /* 360/16 = 22.5deg */
 }
 
 .pocetna .col-md-6 .container_anim .box span i:nth-child(2) {
-  color: rgb(238, 28, 81);
+  color: var(--themenew);
   font-style: initial;
   letter-spacing: 3px;
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(3, 233, 244, 0.8),
+    var(--themetrans2),
     transparent
   );
 }
 
 .pocetna .col-md-6 .container_anim .box span i:nth-child(1),
 .pocetna .col-md-6 .container_anim .box span i:nth-child(3) {
-  color: #03e9f4;
+  color: var(--theme);
 }
 
 /*O NAMA*/
