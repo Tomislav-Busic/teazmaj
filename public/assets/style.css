@@ -714,7 +714,9 @@ ul {
 }
 
 .project-item .project-inner p {
-  font-size: 20px;
+  margin-top: 1rem;
+  font-size: 16px;
+  color: var(--white);
 }
 
 .project-item .project-inner img {
