@@ -101,7 +101,7 @@ ul {
 }
 
 .header .logo img {
-  padding: 5px 0 0 0;
+  margin-right: 1rem;
   height: 35px;
   width: 35px;
 }
@@ -440,7 +440,7 @@ ul {
   height: 40vh;
   display: flex;
   justify-content: center;
-  align-items: center; /*to jebe*/
+  align-items: center;
 }
 
 .hero-img {
@@ -883,8 +883,39 @@ footer {
   .pocetna {
     overflow: hidden;
   }
+
+  .pocetna .col-md-6:nth-child(2) {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; /*to jebe*/
+  }
+
   .pocetna .col-md-6 .container_anim .box span {
     font-size: 1.8em;
+  }
+
+  .about .col-md-6:nth-child(2) {
+    height: 30vh;
+  }
+
+  .text {
+    font-size: 35px;
+  }
+
+  .overlay-image {
+    position: absolute;
+    top: -10rem;
+    left: 0;
+    z-index: 2;
+    height: 170px;
+    width: 170px;
+    animation: moveImage 10s linear infinite;
+  }
+  .mh-service .swiper-container {
+    width: 300px;
+    height: 300px;
+    position: absolute;
   }
 }
 
