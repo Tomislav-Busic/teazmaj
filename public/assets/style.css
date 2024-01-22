@@ -436,42 +436,65 @@ ul {
   font-family: "Poppins", sans-serif;
 }
 
+.overlay-image-hidden {
+  overflow: hidden;
+}
+
 .hero-img {
   position: relative;
-  overflow: hidden;
   height: 100%;
   width: 100%;
-  background: url("assets/img/logo.png");
+  background: url("/public/assets/img/backanim.png") no-repeat;
+  background-size: contain;
+  transform-origin: center;
+  animation: moveImage2 30s linear infinite;
 }
 
 .text {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 1;
   color: white;
-  font-size: 24px;
-  font-weight: bold;
-  opacity: 0;
+  font-size: 54px;
+  font-weight: bolder;
 }
 
 .overlay-image {
   position: absolute;
-  top: 0;
+  top: -15rem;
   left: 0;
-  z-index: 1;
-  height: 350px;
-  width: 350px;
-  animation: moveImage 10s linear infinite;
+  z-index: 2;
+  height: 250px;
+  width: 250px;
+  animation: moveImage 30s linear infinite;
+}
+
+@keyframes moveImage2 {
+  0% {
+    transform: translateX(-100%);
+  }
+  25% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  95% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 @keyframes moveImage {
   0% {
-    transform: translateY(-100%) translateX(-100%) rotate(120deg);
+    transform: translate(120%, 100%) rotate(90deg);
   }
   100% {
-    transform: translateY(250%) translateX(250%) rotate(120deg);
+    transform: translate(200%, 100%) rotate(90deg);
   }
 }
 
