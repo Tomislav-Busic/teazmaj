@@ -1,16 +1,16 @@
-function toggleText() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("read-more-btn");
+function toggleText(button) {
+  let parentElement = button.closest(".mh-service-item");
+  var dots = parentElement.querySelector(".dots");
+  var moreText = parentElement.querySelector(".more");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
     moreText.style.display = "none";
-    btnText.innerHTML = "Više";
+    button.innerHTML = "Više";
   } else {
     dots.style.display = "none";
     moreText.style.display = "inline";
-    btnText.innerHTML = "Manje";
+    button.innerHTML = "Manje";
   }
 }
 
