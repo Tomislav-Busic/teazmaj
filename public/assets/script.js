@@ -1,3 +1,19 @@
+function toggleText() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("read-more-btn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    moreText.style.display = "none";
+    btnText.innerHTML = "Više";
+  } else {
+    dots.style.display = "none";
+    moreText.style.display = "inline";
+    btnText.innerHTML = "Manje";
+  }
+}
+
 $(document).ready(function () {
   $(".sidemenu-toggler").click(function () {
     $(".sidemenu").addClass("active");
