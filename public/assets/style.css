@@ -661,7 +661,12 @@ ul {
   display: none;
 }
 
-.mh-service .containeranim {
+/* GALERIJA */
+
+.galerija h2 {
+  font-family: "Poppins", sans-serif;
+}
+.containeranim {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -671,25 +676,25 @@ ul {
   padding: 0;
 }
 
-.mh-service .containeranim .anim {
+.containeranim .anim {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 
-.mh-service .swiper-container {
+.swiper-container {
   width: 500px;
   height: 500px;
   position: absolute;
 }
 
-.mh-service .swiper-slide img {
+.swiper-slide img {
   height: 100%;
   width: 100%;
 }
 
-.mh-service .mh-service-item h3 {
+.mh-service-item h3 {
   font-family: "Poppins", sans-serif;
   margin-bottom: 18px;
   font-size: 25px;
