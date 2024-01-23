@@ -503,36 +503,6 @@ ul {
   }
 }
 
-.gap {
-  margin-left: 90px;
-}
-
-.tag {
-  margin-bottom: 10px;
-}
-
-.tag ul li {
-  margin: 0px 6px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  padding: 4px 0px;
-  display: inline-block;
-}
-
-.tag ul li span {
-  border: 1px solid var(--theme);
-  padding: 4px 10px;
-  border-radius: 4px;
-  color: var(--theme);
-}
-
-.tag ul li span:hover {
-  background: var(--theme);
-  color: var(--black);
-  box-shadow: 0 0 5px var(--theme), 0 0 25px var(--theme), 0 0 50px var(--theme),
-    0 0 200px var(--theme);
-}
-
 .button a {
   position: relative;
   display: inline-block;
