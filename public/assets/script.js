@@ -1,5 +1,5 @@
 function toggleText(button) {
-  let parentElement = button.closest(".mh-service-item");
+  let parentElement = button.closest(".visehandler");
   var dots = parentElement.querySelector(".dots");
   var moreText = parentElement.querySelector(".more");
 
