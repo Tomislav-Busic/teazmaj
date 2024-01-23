@@ -639,6 +639,14 @@ ul {
   color: var(--theme);
 }
 
+.short-text {
+  overflow: hidden;
+}
+
+#more {
+  display: none;
+}
+
 .mh-service .containeranim {
   display: flex;
   justify-content: center;
