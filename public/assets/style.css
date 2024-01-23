@@ -502,6 +502,20 @@ ul {
   }
 }
 
+/* BUTOTNS */
+.vise {
+  padding: 5px 10px;
+  margin: 10px 0;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  color: var(--theme);
+}
+
+.vise:focus {
+  outline: none;
+}
+
 .button a {
   font-family: "Poppins", sans-serif;
   position: relative;
@@ -515,21 +529,8 @@ ul {
   overflow: hidden;
   transition: 0.5s;
   letter-spacing: 4px;
-  -webkit-box-reflect: below 1px linear-gradient(transparent, rgb(141, 79, 79));
-}
-
-.vise {
-  padding: 5px 10px;
-  margin: 10px 0;
-  font-size: 17px;
-  font-weight: 600;
-  border: none;
-  background: none;
-  color: var(--theme);
-}
-
-.vise:focus {
-  outline: none;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgb(149, 101, 101));
 }
 
 .button a:hover {
@@ -861,17 +862,12 @@ ul {
   color: var(--theme);
 }
 
-.kontakt .kontakt-item img {
-  height: 200px;
-  width: 200px;
-}
-
 .kontakt .kontakt-item .map {
   display: block;
   padding: 0px;
   width: 100%;
   height: calc(0.5625 * 100vh);
-  max-width: 630px;
+  max-width: 100%;
   max-height: 320px;
   min-width: 300px;
   min-height: 180px;
@@ -904,6 +900,7 @@ footer {
   }
 
   .pocetna .col-md-6:nth-child(2) {
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center; /*to jebe*/
@@ -931,8 +928,8 @@ footer {
     width: 170px;
     animation: moveImage 10s linear infinite;
   }
-  .mh-service .swiper-container {
-    width: 300px;
+  .galerija .swiper-container {
+    width: 280px;
     height: 300px;
     position: absolute;
   }
