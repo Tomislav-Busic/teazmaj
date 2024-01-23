@@ -439,7 +439,6 @@ ul {
 }
 
 .about .col-md-6:nth-child(2) {
-  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -450,14 +449,14 @@ ul {
   position: relative;
   height: 100%;
   width: 100%;
-  background: url("/public/assets/img/backanim.png") no-repeat;
+  background: url("/public/assets/img/backanim.png") no-repeat !important;
   background-size: contain;
-  transform-origin: center;
+  transform: translateY(25%);
 }
 
 .text {
   position: absolute;
-  top: 40%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -920,6 +919,7 @@ footer {
 
   .text {
     font-size: 35px;
+    top: 35%;
   }
 
   .overlay-image {
