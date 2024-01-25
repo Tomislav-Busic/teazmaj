@@ -459,7 +459,6 @@ ul {
   top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
   color: white;
   font-size: 54px;
   font-weight: bolder;
@@ -469,7 +468,6 @@ ul {
   position: absolute;
   top: -15rem;
   left: 0;
-  z-index: 2;
   height: 250px;
   width: 250px;
   animation: moveImage 10s linear infinite;
