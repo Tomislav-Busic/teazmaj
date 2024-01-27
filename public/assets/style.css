@@ -449,7 +449,7 @@ ul {
   position: relative;
   height: 100%;
   width: 100%;
-  background: url("/public/assets/img/backanim.png") no-repeat;
+  background: url("/public/assets/img/backanim.jpg") no-repeat;
   background-size: contain;
   transform: translateY(25%);
 }
