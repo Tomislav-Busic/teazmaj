@@ -1,7 +1,7 @@
 :root {
   --theme: #ee416c; /*Original:  #03e9f4*/
-  --themetrans: rgba(248, 5, 66, 0.7); /*Original:  rgba(0, 247, 168, 0.8)*/
-  --themetrans2: rgb(255, 0, 64); /*Original:  rgba(3, 233, 244, 0.8)*/
+  --themetrans: rgba(222, 25, 75, 0.7); /*Original:  rgba(0, 247, 168, 0.8)*/
+  --themetrans2: rgb(252, 68, 114); /*Original:  rgba(3, 233, 244, 0.8)*/
   --white: #212529; /*Original:  #ffffff*/
   --dark: #ffffff; /*Original:  #212529*/
   --black: #050801; /*Original:  #050801*/
