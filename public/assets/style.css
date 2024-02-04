@@ -444,7 +444,7 @@ ul {
   align-items: center;
 }
 
-.hero-img {
+/* .hero-img {
   overflow: hidden;
   position: relative;
   height: 100%;
@@ -498,7 +498,7 @@ ul {
   100% {
     transform: translate(200%, 100%) rotate(90deg);
   }
-}
+} */
 
 /* BUTOTNS */
 .vise {
