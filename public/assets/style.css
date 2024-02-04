@@ -438,12 +438,6 @@ ul {
   font-family: "Poppins", sans-serif;
 }
 
-.about .col-md-6:nth-child(2) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* .hero-img {
   overflow: hidden;
   position: relative;
