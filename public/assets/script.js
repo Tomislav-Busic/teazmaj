@@ -1,8 +1,5 @@
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } }); //koliko dugo želimo da se svaka animacija dogodi
 
-tl.to(".text1", { y: "0%", duration: 1 });
-tl.to(".text2", { y: "0%", duration: 1 });
-tl.to(".text3", { y: "0%", duration: 1 });
 tl.to(".intro-w", {
   rotationY: 0,
   autoAlpha: 1,
@@ -40,36 +37,6 @@ tl.to(".intro-s", {
   duration: 0.25,
 });
 tl.to(".intro-i", {
-  rotationY: 0,
-  autoAlpha: 1,
-  ease: Power4.easeInOut,
-  duration: 0.25,
-});
-tl.to(".intro-g", {
-  rotationY: 0,
-  autoAlpha: 1,
-  ease: Power4.easeInOut,
-  duration: 0.25,
-});
-tl.to(".intro-n", {
-  rotationY: 0,
-  autoAlpha: 1,
-  ease: Power4.easeInOut,
-  duration: 0.25,
-});
-tl.to(".intro-e-t", {
-  rotationY: 0,
-  autoAlpha: 1,
-  ease: Power4.easeInOut,
-  duration: 0.25,
-});
-tl.to(".intro-r", {
-  rotationY: 0,
-  autoAlpha: 1,
-  ease: Power4.easeInOut,
-  duration: 0.25,
-});
-tl.to(".intro-r-r", {
   rotationY: 0,
   autoAlpha: 1,
   ease: Power4.easeInOut,
