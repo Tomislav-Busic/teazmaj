@@ -1031,12 +1031,12 @@ footer {
   height: 100%;
 }
 
-.intro img {
+.intro .animback {
   width: 100%;
   height: 50%;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: -50%;
   transform: translate(-50%, -50%);
 }
 
@@ -1073,7 +1073,7 @@ footer {
   transform: rotateY(90deg);
   display: inline-block;
   transition: all 0.5s ease;
-  color: var(--white);
+  color: var(--dark);
 }
 
 .slider {
