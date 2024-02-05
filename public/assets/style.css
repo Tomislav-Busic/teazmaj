@@ -1023,7 +1023,7 @@ footer {
 /*INTRO*/
 .intro {
   z-index: 999;
-  background: var(--theme);
+  background: var(--dark);
   position: fixed;
   top: 0;
   left: 0;
