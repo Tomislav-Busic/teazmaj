@@ -884,6 +884,73 @@ footer {
   font-size: 16px;
 }
 
+/*INTRO*/
+.intro {
+  z-index: 999;
+  background: var(--dark);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.intro .animback {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro i {
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  color: var(--theme);
+  font-size: 25rem;
+}
+
+.intro-text h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  font-size: 10rem;
+  font-family: sans-serif;
+}
+
+.intro-b {
+  letter-spacing: 20px;
+}
+
+.naslov {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-text h1 span {
+  opacity: 0;
+  transform: rotateY(90deg);
+  display: inline-block;
+  transition: all 0.5s ease;
+  color: var(--dark);
+}
+
+.slider {
+  z-index: 999;
+  background-image: linear-gradient(var(--theme), white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%); /*da se spusti skroz dolje*/
+}
+
 /*MEDIA*/
 
 @media (max-width: 1199px) {
@@ -1018,71 +1085,4 @@ footer {
   .pocetna .col-md-6 .container_anim .box span {
     font-size: 1.4em;
   }
-}
-
-/*INTRO*/
-.intro {
-  z-index: 999;
-  background: var(--dark);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.intro .animback {
-  width: 100%;
-  height: 50%;
-  position: absolute;
-  top: 50%;
-  left: -50%;
-  transform: translate(-50%, -50%);
-}
-
-.intro i {
-  position: absolute;
-  top: 50%;
-  left: -50%;
-  transform: translate(-50%, -50%) rotate(90deg);
-  color: var(--theme);
-  font-size: 25rem;
-}
-
-.intro-text h1 {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  text-align: center;
-  font-size: 10rem;
-  font-family: sans-serif;
-}
-
-.intro-b {
-  letter-spacing: 20px;
-}
-
-.naslov {
-  display: flex;
-  flex-direction: column;
-}
-
-.intro-text h1 span {
-  opacity: 0;
-  transform: rotateY(90deg);
-  display: inline-block;
-  transition: all 0.5s ease;
-  color: var(--dark);
-}
-
-.slider {
-  z-index: 999;
-  background-image: linear-gradient(var(--theme), white);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%); /*da se spusti skroz dolje*/
 }
