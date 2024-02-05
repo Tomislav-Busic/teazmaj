@@ -929,11 +929,6 @@ footer {
     width: 170px;
     animation: moveImage 10s linear infinite;
   }
-  .galerija .swiper-container {
-    width: 280px;
-    height: 300px;
-    position: absolute;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -969,6 +964,11 @@ footer {
   }
   .mh-experience .col-sm-12:nth-child(2) h3 {
     margin-top: 3rem;
+  }
+  .galerija .swiper-container {
+    width: 280px;
+    height: 300px;
+    position: absolute;
   }
 }
 
