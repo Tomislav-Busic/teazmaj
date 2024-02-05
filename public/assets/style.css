@@ -1037,7 +1037,6 @@ footer {
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
-  color: #fff;
   font-size: 90px;
   font-family: sans-serif;
 }
@@ -1056,6 +1055,7 @@ footer {
   transform: rotateY(90deg);
   display: inline-block;
   transition: all 0.5s ease;
+  color: var(--white);
 }
 
 .slider {
