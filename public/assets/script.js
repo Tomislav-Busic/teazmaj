@@ -4,7 +4,7 @@ tl.to(".intro-w", {
   rotationY: 0,
   autoAlpha: 1,
   ease: Power4.easeInOut,
-  duration: 0.8,
+  duration: 4,
 });
 tl.to(".intro-e", {
   rotationY: 0,
