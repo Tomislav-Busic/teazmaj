@@ -113,7 +113,7 @@ ul {
 }
 
 .header .logo a {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   color: var(--theme);
 }
@@ -385,7 +385,7 @@ ul {
 
 .pocetna .col-md-6:nth-child(2) {
   margin-top: 3rem;
-  margin-left: -3rem;
+  margin-left: -2rem;
 }
 
 .pocetna .col-md-6 .container_anim {
@@ -675,6 +675,7 @@ ul {
   height: 80vh;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .containeranim .anim {
@@ -1015,7 +1016,7 @@ footer {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .intro i {
-    font-size: 23rem;
+    font-size: 18rem;
   }
   .intro-text h1 {
     font-size: 6rem;
@@ -1062,13 +1063,13 @@ footer {
 
 @media (min-width: 338px) and (max-width: 768px) {
   .intro i {
-    font-size: 20rem;
+    font-size: 17rem;
   }
   .intro-text h1 {
     font-size: 2.8rem;
   }
   .slider i {
-    font-size: 20rem;
+    font-size: 17rem;
   }
   .header {
     height: 60px;
@@ -1113,5 +1114,10 @@ footer {
   }
   .pocetna .col-md-6 .container_anim .box span {
     font-size: 1.4em;
+  }
+  .galerija .swiper-container {
+    width: 280px;
+    height: 300px;
+    position: absolute;
   }
 }
