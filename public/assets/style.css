@@ -1031,13 +1031,30 @@ footer {
   height: 100%;
 }
 
+.intro img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro i {
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  color: var(--theme);
+  font-size: 30rem;
+}
+
 .intro-text h1 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
-  font-size: 90px;
+  font-size: 10rem;
   font-family: sans-serif;
 }
 
