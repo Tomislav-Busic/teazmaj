@@ -1,50 +1,28 @@
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } }); //koliko dugo želimo da se svaka animacija dogodi
 
+// Animacija valjka
 tl.to(".valjak", { x: "600%", ease: Power4.easeInOut, duration: 5 });
-tl.to(".animback", { x: "100%", ease: Power4.easeInOut, duration: 5 }, 0);
 
-tl.to(".intro-w", {
-  rotationY: 0,
-  autoAlpha: 1,
-  ease: Power4.easeInOut,
-  duration: 0.5,
-});
-tl.to(".intro-e", {
-  rotationY: 0,
-  autoAlpha: 1,
-  ease: Power4.easeInOut,
-  duration: 0.05,
-});
-tl.to(".intro-b", {
-  rotationY: 0,
-  autoAlpha: 1,
-  ease: Power4.easeInOut,
-  duration: 0.15,
-});
-tl.to(".intro-d", {
-  rotationY: 0,
-  autoAlpha: 1,
-  ease: Power4.easeInOut,
-  duration: 0.15,
-});
-tl.to(".intro-e-o", {
-  rotationY: 0,
-  autoAlpha: 1,
-  ease: Power4.easeInOut,
-  duration: 0.25,
-});
-tl.to(".intro-s", {
-  rotationY: 0,
-  autoAlpha: 1,
-  ease: Power4.easeInOut,
-  duration: 0.25,
-});
-tl.to(".intro-i", {
-  rotationY: 0,
-  autoAlpha: 1,
-  ease: Power4.easeInOut,
-  duration: 0.25,
-});
+// Animacija slova
+tl.to(
+  [
+    ".intro-w",
+    ".intro-e",
+    ".intro-b",
+    ".intro-d",
+    ".intro-e-o",
+    ".intro-s",
+    ".intro-i",
+  ],
+  {
+    rotationY: 0,
+    autoAlpha: 1,
+    ease: Power4.easeInOut,
+    stagger: 0.2,
+    duration: 0.5,
+  },
+  "-=3"
+);
 tl.to(".intro-text", { autoAlpha: 0, ease: Power4.easeInOut, duration: 1 });
 tl.to(".slider", { y: "-150%", duration: 2.5, delay: 0.5 });
 tl.to(".intro", { y: "-150%", duration: 1 }, "-=2");

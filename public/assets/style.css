@@ -888,7 +888,11 @@ footer {
 /*INTRO*/
 .intro {
   z-index: 999;
-  background: var(--dark);
+  background-image: url("/public/assets/img/backanim.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--dark);
+  background-size: cover;
   position: fixed;
   top: 0;
   left: 0;
@@ -908,10 +912,10 @@ footer {
 .intro i {
   position: absolute;
   top: 50%;
-  left: -50%;
+  left: -10%;
   transform: translate(-50%, -50%) rotate(90deg);
   color: var(--theme);
-  font-size: 25rem;
+  font-size: 18rem;
 }
 
 .intro-text h1 {
