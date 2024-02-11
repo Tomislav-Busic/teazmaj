@@ -971,6 +971,9 @@ footer {
   .intro i {
     font-size: 23rem;
   }
+  .intro i {
+    font-size: 15rem;
+  }
   .intro-text h1 {
     font-size: 8rem;
   }
@@ -1022,6 +1025,9 @@ footer {
   .intro i {
     font-size: 18rem;
   }
+  .intro i {
+    font-size: 13rem;
+  }
   .intro-text h1 {
     font-size: 6rem;
   }
@@ -1067,9 +1073,11 @@ footer {
 
 @media (min-width: 338px) and (max-width: 768px) {
   .intro i {
-    font-size: 17rem;
+    font-size: 9rem;
+    left: -20%;
   }
   .intro-text h1 {
+    top: 47%;
     font-size: 2.8rem;
   }
   .slider i {
