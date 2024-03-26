@@ -361,10 +361,24 @@ ul {
   font-size: 30px;
 }
 
+.social_home  {
+  margin-top: 1rem;
+}
+
+.social_home a {
+  margin-left: 1rem;
+}
+
+.social_home a {
+  color: var(--theme);
+  font-size: 30px;
+ 
+}
+
 .social-icons li {
   list-style: none;
   margin-right: 30px;
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 25px;
   cursor: pointer;
   transition: 0.4s ease;
