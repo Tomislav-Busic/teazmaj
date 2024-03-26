@@ -860,7 +860,8 @@ ul {
   font-weight: 500;
 }
 
-.kontakt .kontakt-item p .fa {
+.kontakt .kontakt-item p .fa,
+.kontakt .kontakt-item p .fab {
   font-size: 25px;
   margin: 20px 10px 0px 0px;
   color: var(--theme);
@@ -986,6 +987,9 @@ footer {
 /*MEDIA*/
 
 @media (max-width: 1199px) {
+  .hero-img img{
+    margin-top: 2rem;
+  }
   .intro i {
     font-size: 23rem;
   }
@@ -1090,6 +1094,9 @@ footer {
 }
 
 @media (min-width: 338px) and (max-width: 768px) {
+  .pocetna {
+    padding-top: 30px;
+  }
   .intro i {
     font-size: 9rem;
     left: -20%;
