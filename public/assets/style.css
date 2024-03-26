@@ -1,7 +1,7 @@
 :root {
   --theme: #f074b4; /*Original:  #03e9f4*/
-  --themetrans: rgba(222, 25, 75, 0.7); /*Original:  rgba(0, 247, 168, 0.8)*/
-  --themetrans2: rgb(252, 68, 114); /*Original:  rgba(3, 233, 244, 0.8)*/
+  --themetrans: rgba(243, 178, 194, 0.7); /*Original:  rgba(0, 247, 168, 0.8)*/
+  --themetrans2: rgb(224, 96, 128); /*Original:  rgba(3, 233, 244, 0.8)*/
   --white: #212529; /*Original:  #ffffff*/
   --dark: #ffffff; /*Original:  #212529*/
   --black: #050801; /*Original:  #050801*/
@@ -372,8 +372,8 @@ ul {
 .social_home a {
   color: var(--theme);
   font-size: 30px;
- 
 }
+
 
 .social-icons li {
   list-style: none;
@@ -772,9 +772,16 @@ ul {
   color: var(--black);
 }
 
-.project-item .project-inner img {
-  margin-bottom: 30px;
+.project-item  .video {
+  width: 100%;
+  height: 100%;
 }
+
+.project-item  .video video {
+  width: 100%;
+  height: 100%;
+}
+
 
 /*CJENIK*/
 
@@ -879,7 +886,7 @@ ul {
   justify-content: space-between;
 }
 
-.kontakt .kontakt-item .razmak p:nth-child(2) {
+.kontakt .kontakt-item .razmak p:nth-child(1) {
   color: var(--theme);
 }
 
