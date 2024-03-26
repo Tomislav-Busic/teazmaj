@@ -1,4 +1,4 @@
-const tl = gsap.timeline({ defaults: { ease: "power1.out" } }); //koliko dugo želimo da se svaka animacija dogodi
+const tl = gsap.timeline({ defaults: { ease: "power1.out" } }); // koliko dugo želimo da se svaka animacija dogodi
 
 // Animacija valjka
 tl.to(".valjak", { x: "600%", ease: Power4.easeInOut, duration: 5 });
