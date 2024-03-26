@@ -1,12 +1,12 @@
 :root {
-  --theme: #ee416c; /*Original:  #03e9f4*/
+  --theme: #f074b4; /*Original:  #03e9f4*/
   --themetrans: rgba(222, 25, 75, 0.7); /*Original:  rgba(0, 247, 168, 0.8)*/
   --themetrans2: rgb(252, 68, 114); /*Original:  rgba(3, 233, 244, 0.8)*/
   --white: #212529; /*Original:  #ffffff*/
   --dark: #ffffff; /*Original:  #212529*/
   --black: #050801; /*Original:  #050801*/
   --darktrans: rgba(0, 0, 0, 0.25); /*Original:  rgba(0, 0, 0, 0.25)*/
-  --themenew: rgb(238, 28, 81); /*Original:  rgb(238, 28, 81)*/
+  --themenew: #f074b4; /*Original:  rgb(238, 28, 81)*/
 }
 
 html {
@@ -100,10 +100,10 @@ ul {
   padding: 16px 0 0 0;
 }
 
-.header .logo i {
+.header .logo img {
   margin-right: 1rem;
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
   color: var(--theme);
 }
 
@@ -139,8 +139,12 @@ ul {
   text-transform: uppercase;
 }
 
-.header.sticky .menu a,
-.header.sticky .logo i {
+.header.sticky .logo img {
+  filter: sepia(100%);
+  -webkit-filter: sepia(100%);
+}
+
+.header.sticky .menu a {
   color: var(--black);
   transition: 0.5s ease;
 }
