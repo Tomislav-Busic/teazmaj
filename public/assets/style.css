@@ -914,10 +914,10 @@ footer {
 /*INTRO*/
 .intro {
   z-index: 999;
-  background-image: url("/public/assets/img/backanim.png");
+  background-color: var(--dark);
+  /* background: url("/public/assets/img/backanim.png") var(--dark); */
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--dark);
   background-size: cover;
   position: fixed;
   top: 0;
@@ -940,8 +940,19 @@ footer {
   top: 50%;
   left: -10%;
   transform: translate(-50%, -50%) rotate(90deg);
-  color: rgb(245, 200, 200);
+  color: var(--theme);
   font-size: 18rem;
+}
+
+.intro-text img {
+  position: absolute;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+  height: 10rem;
+  width: 10rem;
+  opacity: 0;
 }
 
 .intro-text h1 {
@@ -952,6 +963,7 @@ footer {
   text-align: center;
   font-size: 10rem;
   font-family: sans-serif;
+  color: var(--theme);
 }
 
 .intro-b {
@@ -968,7 +980,7 @@ footer {
   transform: rotateY(90deg);
   display: inline-block;
   transition: all 0.5s ease;
-  color: var(--dark);
+  color: var(--theme);
 }
 
 .slider {
