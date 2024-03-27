@@ -3,6 +3,11 @@ const tl = gsap.timeline({ defaults: { ease: "power1.out" } }); // koliko dugo Å
 // Animacija valjka
 tl.to(".valjak", { x: "600%", ease: Power4.easeInOut, duration: 5 });
 
+tl.to(".intro-logo", { autoAlpha: 1,
+  ease: Power4.easeInOut,
+  duration: 2},
+  "-=3");
+
 // Animacija slova
 tl.to(
   [

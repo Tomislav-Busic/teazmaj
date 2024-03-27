@@ -949,7 +949,7 @@ footer {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-30%, -50%);
+  transform: translate(-50%, -50%);
   height: 10rem;
   width: 10rem;
   opacity: 0;
